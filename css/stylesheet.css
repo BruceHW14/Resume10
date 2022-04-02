@@ -1,0 +1,158 @@
+#profilePhoto{
+  width: 15%;
+  height: 15%;
+  border-radius : 50%;
+  border: 5px  solid black;
+  /*margin-top: 20px;*/
+}
+
+#Context{
+  font-family: serif;
+  font-size:120%;
+  background-color: #FCF7F8;
+  display: flex;
+  flex-direction: column;
+}
+
+.article{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mainSection{
+  color: whitesmoke;
+  border: 20px solid black;
+  /*margin: 1%;*/
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+  background-image: url("https://www.fonewalls.com/wp-content/uploads/2019/12/Flower-Dark-Black-Background-Wallpaper-720x1600-1.jpg");
+  background-color: darkslategray;
+  background-repeat: repeat-x repeat-y;
+  background-position: top left;
+}
+
+#mainRead{
+  /*margin-left: 40px;*/
+
+}
+
+#sidebar{
+  width: 15%;
+  background-color: mediumseagreen;
+  text-align: center;
+}
+
+.exLink{
+  background-color: limegreen;
+}
+
+.navMenu{
+  list-style-type: none;
+  padding: 0%;
+}
+
+#heading {
+  text-align: center;
+  background-color: darkslategray;
+  color: whitesmoke;
+  border: 20px solid black;
+  justify-content: center;
+  /*padding: 1rem;*/
+}
+
+#MyContactInfo {
+  background-color: darkslategray;
+  text-align: center;
+  border: 20px solid black;
+  /*padding: 1rem*/
+  color: whitesmoke;
+}
+
+}
+
+.facebook_icon{
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.gmail_icon{
+  border-radius: 20%;
+  opacity: 0.7;
+}
+
+  /*@media screen and (max-width:768px) and (min-width:380px) {
+  #heading {
+    background-color: darkgreen;
+    width: 95%;
+    font-size: medium;
+    display: inline;
+  }
+
+  .article {
+    font-size: medium;
+    display: inline;
+    max-width: fit-content;
+  }
+
+  #mainRead {
+    text-align: left;
+    margin-left: 20px;
+    display: inline-block;
+    width: 90%;
+    font-size: medium;
+  }
+
+  #MyContactInfo {
+    background-color: darkgreen;
+    width: 90%;
+    font-size: medium;
+    display: inline;
+  }
+}
+
+
+  /*@media screen and (max-width:380px) and (min-width:210px) {
+  #heading {
+    background-color: darkgreen;
+    width: 95%;
+    font-size: small;
+    display: inline;
+  }
+
+  .article {
+    font-size: small;
+    display: inline;
+    max-width: fit-content;
+  }
+
+  #mainRead {
+    text-align: left;
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 90%;
+    font-size: small;
+  }
+
+  #MyContactInfo {
+    background-color: darkgreen;
+    width: 90%;
+    font-size: small;
+    display: inline;
+  }
+}
+
+/*@media screen and (max-width:768px) and (min-width:380px) {
+  #sidebar {
+    font-size: 10px;
+    background-color: darkcyan;
+  }
+
+}
+
+/*@media screen and (max-width:380px) and (min-width:210px) {
+  #sidebar {
+    font-size: 5px;
+    background-color: darkcyan;
+  }
+
+}

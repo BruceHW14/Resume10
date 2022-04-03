@@ -70,13 +70,19 @@
 
 }
 
+
 .facebook_icon{
-  border-radius: 50%;
-  opacity: 0.7;
+  border-radius: 70%;
+  opacity: 0.9;
 }
 
 .gmail_icon{
   border-radius: 20%;
+  opacity: 0.7;
+}
+
+.Cellphone.Icon{
+  border-radius: 35%;
   opacity: 0.7;
 }
 

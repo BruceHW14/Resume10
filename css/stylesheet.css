@@ -5,7 +5,24 @@
   border: 5px  solid black;
   /*margin-top: 20px;*/
 }
+.NameColor:hover{
+  color: whitesmoke;
+  background-color: darkslategray;
+  animation-name: Name-Color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
 
+@keyframes Name-Color{
+  0%{
+    color: whitesmoke;
+  }
+  100%{
+    color: black;
+  }
+}
 
 .ProfileImage:hover {
   filter: drop-shadow(0px 30px 40px black)

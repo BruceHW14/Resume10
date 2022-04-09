@@ -7,7 +7,6 @@
 }
 .NameColor:hover{
   color: whitesmoke;
-  background-color: darkslategray;
   animation-name: Name-Color;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -43,7 +42,7 @@
 #mainSection{
   color: whitesmoke;
   border: 20px solid black;
-  /*margin: 1%;*/
+  margin: 1%;
   display: flex;
   flex-direction: row;
   overflow: unset;
@@ -80,19 +79,16 @@
   color: whitesmoke;
   border: 20px solid black;
   justify-content: center;
-  /*padding: 1rem;*/
+  padding: 1rem;
 }
 
 #MyContactInfo {
+  color: whitesmoke;
   background-color: darkslategray;
   text-align: center;
   border: 20px solid black;
-  /*padding: 1rem*/
-  color: whitesmoke;
-}
-
-}
-
+  padding: 1rem
+} 
 
 .facebook_icon{
   border-radius: 70%;
@@ -109,79 +105,86 @@
   opacity: 0.7;
 }
 
-  /*@media screen and (max-width:768px) and (min-width:380px) {
+  @media screen and (max-width:768px) and (min-width:380px) {
   #heading {
-    background-color: darkgreen;
-    width: 95%;
-    font-size: medium;
-    display: inline;
+    background-color: darkgreen !important;
+    width: 95% !important;
+    font-size: medium !important;
+    display: inline !important;
   }
 
   .article {
-    font-size: medium;
-    display: inline;
-    max-width: fit-content;
+    font-size: medium !important;
+    display: inline !important;
+    max-width: fit-content !important;
   }
 
   #mainRead {
-    text-align: left;
-    margin-left: 20px;
-    display: inline-block;
-    width: 90%;
-    font-size: medium;
+    text-align: left !important;
+    margin-left: 20px !important;
+    display: inline-block !important;
+    width: 90% !important;
+    font-size: medium !important;
   }
 
   #MyContactInfo {
-    background-color: darkgreen;
-    width: 90%;
-    font-size: medium;
-    display: inline;
+    background-color: darkgreen !important;
+    width: 90% !important;
+    font-size: medium !important;
+    display: inline !important;
   }
 }
 
 
-  /*@media screen and (max-width:380px) and (min-width:210px) {
+  @media screen and (max-width:380px) and (min-width:210px) {
   #heading {
-    background-color: darkgreen;
-    width: 95%;
-    font-size: small;
-    display: inline;
+    background-color: darkgreen !important;
+    width: 95% !important;
+    font-size: small !important;
+    display: inline !important;
   }
 
   .article {
-    font-size: small;
-    display: inline;
-    max-width: fit-content;
+    font-size: small !important;
+    display: inline !important;
+    max-width: fit-content !important;
   }
 
   #mainRead {
-    text-align: left;
-    margin-left: 20px;
-    display: inline-block;
-    max-width: 90%;
-    font-size: small;
+    text-align: left !important;
+    margin-left: 20px !important;
+    display: inline-block !important;
+    max-width: 90% !important;
+    font-size: small !important;
   }
 
   #MyContactInfo {
-    background-color: darkgreen;
-    width: 90%;
-    font-size: small;
-    display: inline;
+    background-color: darkgreen !important;
+    width: 90% !important;
+    font-size: small !important;
+    display: inline !important;
   }
 }
 
-/*@media screen and (max-width:768px) and (min-width:380px) {
+@media screen and (max-width:768px) and (min-width:380px) {
   #sidebar {
-    font-size: 10px;
-    background-color: darkcyan;
+    font-size: 10px !important;
+    background-color: darkolivegreen !important;
+  }
+  .NameSize {
+    font-size: small !important;
+    color: whitesmoke !important;
   }
 
 }
 
-/*@media screen and (max-width:380px) and (min-width:210px) {
+@media screen and (max-width:380px) and (min-width:210px) {
   #sidebar {
-    font-size: 5px;
-    background-color: darkcyan;
+    font-size: 5px !important;
+    background-color: darkolivegreen !important;
   }
-
+  .NameSize {
+    font-size: 8px !important;
+    color: whitesmoke !important;
+  }
 }

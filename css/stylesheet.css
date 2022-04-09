@@ -6,6 +6,11 @@
   /*margin-top: 20px;*/
 }
 
+
+.ProfileImage:hover {
+  filter: drop-shadow(0px 30px 40px black)
+}
+
 #Context{
   font-family: serif;
   font-size:120%;
@@ -27,6 +32,7 @@
   overflow: unset;
   background-image: url("https://www.fonewalls.com/wp-content/uploads/2019/12/Flower-Dark-Black-Background-Wallpaper-720x1600-1.jpg");
   background-color: darkslategray;
+  background-blend-mode: overlay;
   background-repeat: repeat-x repeat-y;
   background-position: top left;
 }

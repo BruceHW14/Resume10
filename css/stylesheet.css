@@ -35,7 +35,7 @@
   flex-direction: column;
 }
 
-.article{
+#article{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -55,7 +55,6 @@
 
 #mainRead{
   margin-left: 40px;
-
 }
 
 .card-body{

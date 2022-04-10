@@ -57,6 +57,10 @@
   margin-left: 40px;
 }
 
+.card{
+  width: 160%;
+}
+
 .card-body{
   color:whitesmoke;
   background-color: darkslategrey;
@@ -127,6 +131,10 @@
     max-width: fit-content !important;
     }
 
+  .card{
+    width: 90% !important;
+  }  
+
   #mainRead {
     text-align: left !important;
     margin-left: 20px !important;
@@ -143,6 +151,12 @@
     }
 }
 
+@media screen and (max-width:770px) and (min-width:576px){
+  .card{
+    width: 220% !important;
+  }
+}
+
 @media screen and (max-width:380px) and (min-width:210px) {
   #heading {
     background-color: darkgreen !important;
@@ -156,6 +170,10 @@
     display: inline !important;
     max-width: fit-content !important;
     }
+
+  .card{
+    width: 105% !important;
+  }  
 
   #mainRead {
     text-align: left !important;

@@ -59,18 +59,19 @@
 }
 
 .card-body{
-  color:black;
+  color:whitesmoke;
+  background-color: darkslategrey;
 }
 
 #sidebar{
   width: 15%;
-  background-color: mediumseagreen;
+  background-color: darkolivegreen;
   text-align: center;
 }
 
-.exLink{
+/*.exLink{
   background-color: limegreen;
-}
+}*/
 
 .navMenu{
   list-style-type: none;

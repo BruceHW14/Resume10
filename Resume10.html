@@ -42,8 +42,8 @@
 </nav>
 
 <body id="Context"><!-- main info about me -->
-<header class="col-sm-12" id="heading">
-<div class="col mt-sm-4">    
+<header id="heading">
+<div>    
 <aside>
 <picture class="ProfileImage"> <!--Picture element holding 3 different sizes of 1 image-->
   <source media="(max-width:550px)" srcset="images/Img-photo.small.jpg">
@@ -193,10 +193,60 @@ target = "_blank"> Coding at CodeSpace </a>
 
 </main>  
 </div>
-    
+<h2 id="FormHeader"><b>Fill in the below</b></h2>
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationDefault01" placeholder="Required" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationDefault02" placeholder="Required" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername" class="form-label">Username</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="Required" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationDefault03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationDefault03" placeholder="Required" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">Province</label>
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Eastern Cape</option>
+      <option>Free State</option>
+      <option>Western Cape</option>
+      <option>North West</option>
+      <option>Gauteng</option>
+      <option>KwaZulu-Natal</option>
+      <option>Limpopo</option>
+      <option>Bloemfontein</option>
+      <option>Pretoria</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationDefault05" placeholder="Required" required>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
 
-
-<footer class="col-sm-12" id="MyContactInfo"> <!--Information to get in touch with me-->
+<footer id="MyContactInfo"> <!--Information to get in touch with me-->
     <h2 id="ContactInfo" class="h1"><u>Contact details</u></h2>
     
     <a href=" https://www.facebook.com/bruce.west.9083"
@@ -255,6 +305,7 @@ target = "_blank"> Coding at CodeSpace </a>
       width= 100px > 
       </a>
     </div>
+    
     <div class="carousel-item">
       <a href="mailto:brucewest1407@gmail.com"
       target="_blank">   
@@ -266,6 +317,7 @@ target = "_blank"> Coding at CodeSpace </a>
                       
       width= 115px> 
     </div>
+
     <div class="carousel-item">
       <a href="tel:0614307071"
       target="_blank">  
@@ -287,8 +339,9 @@ target = "_blank"> Coding at CodeSpace </a>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    
+
 </footer> 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
 crossorigin="anonymous"></script>

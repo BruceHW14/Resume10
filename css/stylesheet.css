@@ -110,19 +110,23 @@
   opacity: 0.7;
 }
 
-  @media screen and (max-width:768px) and (min-width:380px) {
+#FormHeader{
+  text-align: center;
+}
+
+@media screen and (max-width:768px) and (min-width:380px) {
   #heading {
     background-color: darkgreen !important;
     width: 95% !important;
     font-size: medium !important;
     display: inline !important;
-  }
+    }
 
   .article {
     font-size: medium !important;
     display: inline !important;
     max-width: fit-content !important;
-  }
+    }
 
   #mainRead {
     text-align: left !important;
@@ -130,30 +134,31 @@
     display: inline-block !important;
     width: 90% !important;
     font-size: medium !important;
-  }
+    }
 
   #MyContactInfo {
     background-color: darkgreen !important;
     width: 90% !important;
     font-size: medium !important;
     display: inline !important;
-  }
+    }
 }
+  .
 
 
-  @media screen and (max-width:380px) and (min-width:210px) {
+@media screen and (max-width:380px) and (min-width:210px) {
   #heading {
     background-color: darkgreen !important;
     width: 95% !important;
     font-size: small !important;
     display: inline !important;
-  }
+    }
 
   .article {
     font-size: small !important;
     display: inline !important;
     max-width: fit-content !important;
-  }
+    }
 
   #mainRead {
     text-align: left !important;
@@ -161,35 +166,34 @@
     display: inline-block !important;
     max-width: 90% !important;
     font-size: small !important;
-  }
+    }
 
   #MyContactInfo {
     background-color: darkgreen !important;
     width: 90% !important;
     font-size: small !important;
     display: inline !important;
-  }
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:380px) {
   #sidebar {
     font-size: 10px !important;
     background-color: darkolivegreen !important;
-  }
+    }
   .NameSize {
     font-size: small !important;
     color: whitesmoke !important;
-  }
-
+    }
 }
 
 @media screen and (max-width:380px) and (min-width:210px) {
   #sidebar {
     font-size: 5px !important;
     background-color: darkolivegreen !important;
-  }
+    }
   .NameSize {
     font-size: 8px !important;
     color: whitesmoke !important;
-  }
+    }
 }

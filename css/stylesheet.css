@@ -140,6 +140,11 @@
     width: 90% !important;
   }  
 
+  #loremBtn{
+    width: 12rem !important;
+    margin-left: 32% !important;
+  }
+
   #mainRead {
     text-align: left !important;
     margin-left: 20px !important;
@@ -178,7 +183,12 @@
 
   .card{
     width: 105% !important;
-  }  
+  } 
+  
+  #loremBtn{
+    width: 10rem;
+    margin-left: 18%;
+  }
 
   #mainRead {
     text-align: left !important;
